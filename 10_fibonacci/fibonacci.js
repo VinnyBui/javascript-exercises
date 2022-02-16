@@ -1,7 +1,7 @@
 const fibonacci = function(num) {
-  sum = 0
-  num1 = 0 
-  num2 = 1
+  let sum = 0
+  let num1 = 0 
+  let num2 = 1
   if(num == 1 ) return 1;
   else if(num < 0) return "OOPS";
   else{
